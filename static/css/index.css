@@ -1,0 +1,36 @@
+@charset "utf-8";
+body{
+    background-image: url(../images/index.jpg);
+    background-size: cover;    
+}
+
+.chunk{
+    display: flex;
+}
+#title{
+    margin: 25% auto 0 5%;
+}
+#title h1{
+    color: #ffffff;
+    font-size: 460%;
+    font-family: serif;
+}
+#title p{
+    color: #ffffff;
+    font-size: 110%;
+    font-family: serif;
+    margin: 3% auto 0 auto;
+}
+
+a{
+    border: solid 1px #ffffff;
+    width: fit-content;
+    margin: 38% auto 0 15%;
+    border-radius: 30px;
+    padding: 1% 4%;
+    text-decoration: none;
+}
+a div#button{
+    color: #ffffff;
+    margin: 2% 2%;
+}
