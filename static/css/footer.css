@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* rgb(225, 101, 68) */
+/* #e16544 */
+footer{
+    position: absolute;/*絶対位置*/
+    bottom: 0; /*下に固定*/
+    width: 100%;
+}
+
+footer div.fot_chunk{
+    display: flex;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+    color: #e16544;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.now{
+    border-bottom: 8px solid #e16544;
+}
+.other{
+    color: gray;
+}
+p{
+    margin: 2% auto;
+}
+
+/* アイコンの中央寄せ */
+a.main_fot div.other img{
+    margin: 0 auto 0 17%;
+}
+a.confirmation_fot div.other img{
+    margin: 0 auto 0 25%;
+}
+a.graph_fot div.other img{
+    margin: 0 auto 0 17%;
+}
+a.main_fot div.now img{
+    margin: 0 auto 0 17%;
+}
+a.confirmation_fot div.now img{
+    margin: 0 auto 0 25%;
+}
+a.graph_fot div.now img{
+    margin: 0 auto 0 17%;
+}
