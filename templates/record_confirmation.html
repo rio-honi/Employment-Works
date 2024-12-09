@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/reset.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/record_confirmation.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/footer.css')}}">
+
+    <title>記録確認</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="chunk">
+        <h1>目標日：○○年○○月○○日</h1>
+      </div>
+      <a href="/input" class="input">
+        <div class="button">
+          <p>今日の体重を記録しよう！</p>
+        </div>
+      </a>
+      <div class="">
+
+
+
+      </div>
+      <footer>
+        <div class="fot">
+          <div class="fot_chunk">
+            <a href="/main" class="main_fot">
+              <div class="other">
+                <img src="../static/images/home_g.png"/>
+                <p>ホーム</p>
+              </div>
+            </a>
+            <a href="/confirmation" class="confirmation_fot">
+              <div class="now">
+                <img src="../static/images/check.png">
+                <p>記録確認</p>
+              </div>
+            </a>
+            <a href="/input" class="input_fot">
+              <div class="other">
+                <img src="../static/images/input_g.png">
+                <p>記録</p>
+              </div>
+            </a>
+            <a href="/graph" class="graph_fot">
+              <div class="other">
+                <img src="../static/images/graph_g.png">
+                <p>グラフ</p>
+              </div>
+            </a>
+            <a href="/setting" class="setting_fot">
+              <img src="../static/images/setting_g.png">
+              <div class="other">
+                <p>設定</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

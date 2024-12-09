@@ -1,1 +1,14 @@
 @charset "utf-8";
+.input{
+    display: flex;
+}
+.input h1{
+    text-align: center;
+    font-family: serif;
+    font-size: 250%;
+    color: #e16544;
+}
+.main p{
+    font-family: serif;
+    text-align: center;
+}
