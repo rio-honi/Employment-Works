@@ -3,19 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/reset.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/input_data.css')}}">
+
     <title>データ入力</title>
   </head>
   <body>
     <div class="wrap">
+      <div class="chunk">
+        <div class="input">
+          <h1>RECORD!</h1>
+          <a href="/main" class="main">
+            <img src="../static/images/batu.png">
+          </a>
+        </div>
+        <div class="main">
+          <p>今日の体重を記録しよう！</p>
+        </div>
+      </div>
+      <div>
         <form method="POST" action="/input">
-            <label for="record_date">日付を選択:</label>
-            <input type="date" id="record_date" name="record_date" required>
             
-            <label for="weight">体重を入力:</label>
-            <input type="number" id="weight" name="weight" step="0.1" required>
+            <label for="weight">体重</label><br>
+            <input type="number" id="weight" name="weight" step="0.1" required>kg
             
-            <button type="submit">記録する</button>
+            <a href="/main" class="main_button">
+              <div id="button">
+                  <P>戻る</P>  
+              </div>
+            </a>
+            <button type="submit">決定</button>
         </form>
+      </div>
     </div>
   </body>
 </html>
