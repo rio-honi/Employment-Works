@@ -11,24 +11,22 @@
   <body>
     <div class="wrap">
       <div class="chunk">
-        <div class="input">
+        <a href="/main" class="main">
+          <img src="../static/images/batu.png">
+        </a>
+        <div class="title">
           <h1>RECORD!</h1>
-          <a href="/main" class="main">
-            <img src="../static/images/batu.png">
-          </a>
-        </div>
-        <div class="main">
           <p>今日の体重を記録しよう！</p>
         </div>
       </div>
-      <div>
+      <div class="input_area">
         <form method="POST" action="/input">
             
             <label for="weight">体重</label><br>
             <input type="number" id="weight" name="weight" step="0.1" required>kg
             
             <a href="/main" class="main_button">
-              <div id="button">
+              <div id="btn">
                   <P>戻る</P>  
               </div>
             </a>
