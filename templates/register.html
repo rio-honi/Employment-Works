@@ -3,7 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/reset.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/add_user.css')}}">
     <title>ユーザー登録</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrap">
+      <div class="chunk">
+        <div class="left"></div>
+        <div class="right">
+          <h1>アカウント新規作成</h1>
+          {% with messages = get_flashed_messages() %}
+            {% if messages %}
+              <ul>
+                {% for message in messages %}
+                  <li>{{ message }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endwith %}
+            <form action="{{ url_for('register') }}" method="POST">
+              <label for="username">ユーザー名:</label><br>
+              <input type="text" id="username" name="username" required><br><br>
+    
+              <label for="username">メールアドレス:</label><br>
+              <input type="text" id="email" name="email" required><br><br>
+            
+              <label for="password">パスワード:</label><br>
+              <input type="password" id="password" name="password" required><br><br>
+            
+              <label for="height">身長 (cm):</label><br>
+              <input type="number" id="height" name="height" step="0.1" placeholder="例: 170.0"><br><br>
+            
+              <button type="submit">登録</button>
+            </form>
+            <p>すでにアカウントをお持ちですか？ <a href="{{ url_for('login') }}">ログイン</a></p>
+        
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

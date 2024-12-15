@@ -1,14 +1,48 @@
 @charset "utf-8";
-.input{
-    display: flex;
+.main img{
+    margin: 0.4% auto 0 96%;
 }
-.input h1{
+.title h1{
     text-align: center;
     font-family: serif;
-    font-size: 250%;
+    font-size: 300%;
     color: #e16544;
 }
-.main p{
+.title p{
     font-family: serif;
     text-align: center;
+    margin: 1.3% auto;
+}
+
+.input_area{
+    width: 70%;
+    margin: 4% auto 0 auto;
+    text-align: center;
+    font-family: serif;
+}
+.input_area form label{
+    margin: 0 23% 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#btn{
+    text-align: center;
+    margin: 0.3% 40%;
+    padding: 0.3% 0;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#btn p{
+    font-family: serif;
+    color: #ffffff;
+}
+.input_area form button{
+    background-color: #e16544;
+    border: none;
+    color: #ffffff;
+    border-radius: 5%;
+    margin: 0.3% 40%;
+    padding: 0.3% 0;
+    font-family: serif;
 }
