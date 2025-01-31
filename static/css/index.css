@@ -34,3 +34,16 @@ a div#button{
     color: #ffffff;
     margin: 2% 2%;
 }
+
+a:hover{
+    background-color: #ffffff;
+    width: fit-content;
+    margin: 38% auto 0 15%;
+    border-radius: 30px;
+    padding: 1% 4%;
+    text-decoration: none;
+}
+a div#button :hover{
+    margin: 2% 2%;
+    color: #e16544;
+}

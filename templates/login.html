@@ -9,22 +9,25 @@
 </head>
 <body>
     <div id="wrap">
+        <h1>Login</h1>
         <div class="chunk">
-            <h1>ログイン</h1>
-            <p>メールアドレス</p>
-            <p>パスワード</p>
-            <a href="/main" class="main_button">
-                <div id="main">
-                    <p>login</p>  
-                </div>
-            </a>
-            <p>アカウントをお持ちでない方はこちら</p>
-            <a href="/register" class="register_button">
-                <div id="register">
-                    <p>新規作成</p>  
-                </div>
-            </a>
-        </div>
+            <div class="button_group">
+                <p>{{data[0][1]}}さん</p>
+                <a href="/main" class="main_button">
+                  <div id="btn">
+                    <p>start</p>
+                  </div>
+                </a>
+            </div>
+            <div class="button_group">
+                <p>{{data[1][1]}}さん</p>
+                <a href="/main_friend" class="main_button">
+                  <div id="btn">
+                    <p>start</p>
+                  </div>
+                </a>
+            </div>
+        
     </div>
 </body>
 </html>

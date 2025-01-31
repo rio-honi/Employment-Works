@@ -22,14 +22,14 @@
             labels: ['1月28日', '1月29日', '1月30日', '1月31日', '2月1日'],
             datasets: [
               {
-                label: '{{data[0][1]}}さんの体重の増減(Kg）',
-                data: [0, 0.10, -0.20, -0.10, -0.20],
+                label: '{{data[1][1]}}さんの体重の増減(Kg）',
+                data: [0, -0.20, -0.10, -0.10, -0.50],
                 borderColor: "#e16544",
                 backgroundColor: "rgba(0,0,0,0)"
               },
               {
-                label: '{{data[1][1]}}さんの体重の増減(Kg）',
-                data: [0, -0.20, -0.10, -0.10, -0.50],
+                label: '{{data[0][1]}}さんの体重の増減(Kg）',
+                data: [0, 0.10, -0.20, -0.10, -0.20],
                 borderColor: "rgba(0,0,255,1)",
                 backgroundColor: "rgba(0,0,0,0)"
               }
@@ -55,43 +55,43 @@
           }
         });
         </script>
-      <footer>
-        <div class="fot">
-          <div class="fot_chunk">
-            <a href="/main" class="main_fot">
-              <div class="other">
-                <img src="../static/images/home.png"/>
-                <p>ホーム</p>
-              </div>
-            </a>
-            <a href="/confirmation" class="confirmation_fot">
-              <div class="other">
-                <img src="../static/images/check_g.png">
-                <p>記録確認</p>
-              </div>
-            </a>
-            <a href="/input" class="input_fot">
-              <div class="other">
-                <img src="../static/images/input_g.png">
-                <p>記録</p>
-              </div>
-            </a>
-            <a href="/graph" class="graph_fot">
-              <div class="now">
-                <img src="../static/images/graph.png">
-                <p>グラフ</p>
-              </div>
-            </a>
-            <a href="/setting" class="setting_fot">
-              <img src="../static/images/setting_g.png">
-              <div class="other">
-                <p>設定</p>
-              </div>
-            </a>
+        <footer>
+          <div class="fot">
+            <div class="fot_chunk">
+              <a href="/main_friend" class="main_fot">
+                <div class="other">
+                  <img src="../static/images/home.png"/>
+                  <p>ホーム</p>
+                </div>
+              </a>
+              <a href="/confirmation_friend" class="confirmation_fot">
+                <div class="other">
+                  <img src="../static/images/check_g.png">
+                  <p>記録確認</p>
+                </div>
+              </a>
+              <a href="/input_friend" class="input_fot">
+                <div class="other">
+                  <img src="../static/images/input_g.png">
+                  <p>記録</p>
+                </div>
+              </a>
+              <a href="/graph_friend" class="graph_fot">
+                <div class="now">
+                  <img src="../static/images/graph.png">
+                  <p>グラフ</p>
+                </div>
+              </a>
+              <a href="/setting_friend" class="setting_fot">
+                <img src="../static/images/setting_g.png">
+                <div class="other">
+                  <p>設定</p>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-      </footer>
-
-    </div>
-  </body>
-</html>
+        </footer>
+      </div>
+    </body>
+  </html>
+  

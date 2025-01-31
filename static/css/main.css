@@ -1,11 +1,22 @@
 @charset "utf-8";
+body{
+    font-family: serif;
+}
 .chunk{
     background-color: #e16544;
     padding: 1.7%;
 }
-h1{
+.chunk h1{
     font-family: serif;
     text-align: center;
     font-size: 125%;
     color: #ffffff;
+}
+.main h1{
+    padding: 10% 5% 5% 5%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.main p{
+    text-align: center;
 }

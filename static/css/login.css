@@ -3,3 +3,35 @@ body{
     background-image: url(../images/login.jpg);
     background-size: cover;    
 }
+#wrap{
+    width: 40%;
+    margin: 15% 0 0 auto;
+    font-family: serif;  
+}
+#wrap h1{
+    font-size: 1.2rem;
+}
+.chunk{
+    width: 80%;
+    margin: 3% auto 0 auto;
+}
+.chunk p{
+    font-size: 0.9rem;
+}
+a{
+    text-decoration: none;
+}
+#btn{
+    text-align: center;
+    margin: 0.3% 40%;
+    padding: 0.3% 0;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#btn p{
+    font-family: serif;
+    color: #ffffff;
+}
+.button_group{
+    margin: 4% auto;
+}

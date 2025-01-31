@@ -9,3 +9,8 @@ h1{
     font-size: 125%;
     color: #ffffff;
 }
+canvas {
+    max-width: 68%;  /* 画面の80%までに制限 */
+    display: block;
+    margin: 0 auto; /* 中央揃え */
+  }

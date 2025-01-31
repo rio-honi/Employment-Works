@@ -9,3 +9,19 @@
     font-size: 125%;
     color: #ffffff;
 }
+.up{
+    width: 60%;
+    margin: 3% auto 0 auto;
+}
+.up div.profile h1{
+    font-size: 1.3rem;
+    font-family: serif;
+}
+.up div.profile p{
+    width: 80%;
+    font-family: serif;
+}
+.up div.profile p.in{
+    width: 60%;
+    font-family: serif;
+}

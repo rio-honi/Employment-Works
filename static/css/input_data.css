@@ -1,4 +1,8 @@
 @charset "utf-8";
+body{
+    margin: 3% auto;
+    font-family: serif;
+}
 .main img{
     margin: 0.4% auto 0 96%;
 }
@@ -41,8 +45,12 @@ a{
     background-color: #e16544;
     border: none;
     color: #ffffff;
-    border-radius: 5%;
-    margin: 0.3% 40%;
-    padding: 0.3% 0;
+    text-align: center;
+    margin: 0.7% 0;
+    padding: 0.1% 8.5%;
+    border-radius: 5px;
+}
+.input_area form button p{
     font-family: serif;
+    color: #ffffff;
 }
