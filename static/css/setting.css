@@ -3,9 +3,25 @@
     background-color: #e16544;
     padding: 1.7%;
 }
-h1{
+.chunk h1{
     font-family: serif;
     text-align: center;
     font-size: 125%;
     color: #ffffff;
+}
+.up{
+    width: 60%;
+    margin: 3% auto 0 auto;
+}
+.up div.profile h1{
+    font-size: 1.3rem;
+    font-family: serif;
+}
+.up div.profile p{
+    width: 80%;
+    font-family: serif;
+}
+.up div.profile p.in{
+    width: 60%;
+    font-family: serif;
 }
